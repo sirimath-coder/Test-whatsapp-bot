@@ -2,11 +2,11 @@
   "name": "dina-bot",
   "version": "1.0.0",
   "description": "SIRIMATH MD - Multi-session WhatsApp Bot",
-  "main": "index.js",
+  "main": "pair.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node pair.js",
+    "dev": "nodemon pair.js"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.18",
@@ -18,9 +18,10 @@
     "pino": "^9.3.2",
     "qrcode-terminal": "^0.12.0",
     "yt-search": "^2.12.1",
-    "@mrnima/youtube-dl": "^1.0.5",
     "fluent-ffmpeg": "^2.1.2",
     "ffmpeg-static": "^5.2.0",
+    "file-type": "^16.5.4",
+    "mime-types": "^2.1.35",
     "moment-timezone": "^0.5.45",
     "chalk": "^4.1.2"
   },
